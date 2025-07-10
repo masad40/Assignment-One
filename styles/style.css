@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-/* shared section */
+     /* shared section */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -25,7 +25,7 @@
     border-radius: 5px;
     padding: 0;
 }
-/* nav styles */
+     /* nav styles */
 
 nav ul {
     list-style: none;
@@ -54,7 +54,7 @@ button:hover {
     background-color: blue;
 }
 
-/* banner styles */
+      /* banner styles */
 .banner {
     text-align: center;
     margin-top: 150px;
@@ -64,9 +64,6 @@ button:hover {
 
 .banner-contain {
     margin: 150px 267px 0px 320px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font-weight: bold;
     font-size: 65px;
     max-width: 900px;
@@ -84,7 +81,7 @@ button:hover {
     width: auto;
     
 }
-/* action styles */
+      /* action styles */
 main {
     margin-top: 116px;
 }
@@ -123,3 +120,33 @@ main {
 .action-intro{
     margin-left: 100
 }
+
+/* usera styles */
+.user { 
+    background-color: #E5E7FF;
+    padding: 70px 0px 0px 0px ;
+    margin: 120px auto;
+    height: 310px;
+    width: 1100px;
+    text-align: center;
+    border-radius: 8px;
+} 
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.user ul{
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+}
+.user li span {
+    
+    max-width: 165px;
+    word-wrap: break-word;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+} */
