@@ -57,15 +57,20 @@ button:hover {
 /* banner styles */
 .banner {
     text-align: center;
-    margin: 150px;
-    width: auto;
+    margin-top: 150px;
+    max-width: 1440px;
     height: 152px;
 }
 
 .banner-contain {
+    margin: 150px 267px 0px 320px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     font-weight: bold;
     font-size: 65px;
-    display: inline-block;
+    max-width: 900px;
+    word-wrap: break-word;
 }
 
 .banner button {
@@ -77,5 +82,44 @@ button:hover {
     background-image: url('../Assets/Hero-bg.png');
     height: 700px;
     width: auto;
+    
+}
+/* action styles */
+main {
+    margin-top: 116px;
+}
+.action {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+.action-sub-title {
+    /* padding: 10px; */
+    /* display: inline-block; */
+    margin-top: 28px;
+    color: #252432;
+    font-size: 24px;
+    max-width: 500px;
+    word-wrap: break-word;
+}
+.action-img img{
+    width: 403px;
+    height: 328;
+    border-radius: 48px;
+    /* margin-right: 100px; */
+}
 
+.action button{
+    margin-top: 23px;
+    width: 230px;
+    height: 48px;
+}
+
+.action-intro{
+    margin-left: 100
 }
