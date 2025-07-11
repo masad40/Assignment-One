@@ -282,15 +282,19 @@ main {
     align-items: center;
     gap: 115px;
 }
+
 .connect-title {
     height: 235px;
     width: 530px;
     font-size: 50px;
     font-weight: bold;
     word-wrap: break-word;
-    
+
 }
-.connect input[type=text], input[type=email], input[type=textarea ] {
+
+.connect input[type=text],
+input[type=email],
+input[type=textarea] {
     height: 50px;
     border-radius: 5px;
     background-color: white;
@@ -300,32 +304,42 @@ main {
     margin-bottom: 24px;
     border: rgb(81, 74, 62);
 }
+
 .connect input[type=button] {
     height: 50px;
     width: 100%;
 }
-.connect input[type=button]:hover{
+
+.connect input[type=button]:hover {
     background-color: blue;
 }
+
 /* footer styles */
-footer{
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     padding: 5%;
 }
+
 .footer-title {
     text-align: center;
 }
+
 footer h1 {
     color: #4E47FF;
     font-size: 80px;
 }
+
 footer p {
-    width:auto;
+    max-width: 530px;
     height: 48px;
     word-wrap: break-word;
 }
-footer ul{
-    list-style: none; 
+
+footer ul {
+    list-style: none;
     display: flex;
     justify-content: center;
     gap: 20px;
