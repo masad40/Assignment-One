@@ -2,7 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+body{
+    background-color: #F5F8FF;
+}
      /* shared section */
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -149,4 +151,110 @@ main {
     color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
+} 
+/* ratings styles */
+
+/* 
+
+
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 100px ;
+}
+.card {
+
+}
+.card-1{
+    background-color: #FAFCFF;
+    height: 250px;
+    width: 340px;
+    word-wrap: break-word;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px 0px wheat;
+}
+
+.card-1 img {
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.card-x{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 } */
+ .review-card {
+      background-color: #ffffff;
+      padding: 30px;
+      width: 340px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .stars {
+      margin-bottom: 15px;
+    }
+
+    .stars img {
+      width: 24px;
+      height: 24px;
+      margin: 0 2px;
+      vertical-align: middle;
+    }
+
+    /* .review-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 12px; */
+    }
+
+    /* .quote {
+      font-size: 15px;
+      font-style: italic;
+      color: #555;
+      margin-bottom: 20px;
+      line-height: 1.4; */
+    }
+
+    .author-section {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .author-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .author-info {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .author-info .name {
+      font-weight: 600;
+      color: #333;
+    }
+
+    .author-info .date {
+      margin-top: 4px;
+    }
+    .card {
+        display: flex;
+        justify-content: space-around;
+    }
