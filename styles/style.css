@@ -42,6 +42,10 @@ nav ul {
 
 }
 
+.nac-logo span {
+    color: rgb(255, 89, 0);
+}
+
 .nav-logo {
     /* height: 51px;
     width:99px; */
@@ -141,7 +145,7 @@ main {
     width: 1100px;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 5px 10px 12px 10px rgb(108, 125, 143);
+    box-shadow: 5px 6px 6px 6px rgb(108, 125, 143);
 }
 
 .user-title {
@@ -174,7 +178,7 @@ main {
     padding: 30px;
     width: 340px;
     border-radius: 16px;
-    box-shadow: 5px 10px 10px 10px rgb(116, 108, 95);
+    box-shadow: 2px 2px 2px 2px rgb(116, 108, 95); */
     text-align: center;
 }
 
@@ -247,7 +251,7 @@ main {
     padding: 70px 0px 0px 0px;
     margin: 120px auto;
     width: 1100px;
-    box-shadow: 5px 10px 10px 10px rgb(159, 149, 131);
+    box-shadow: 2px 2px 2px 2px rgb(159, 149, 131);
 }
 
 .focus h1 {
@@ -268,6 +272,7 @@ main {
     border-radius: 48px;
 }
 
+/* connect style */
 .connect {
     /* text-align: center; */
     height: 650px;
@@ -292,17 +297,15 @@ main {
 
 }
 
-.connect input[type=text],
-input[type=email],
-input[type=textarea] {
+.connect input[type=text], input[type=email], input[type=textarea] {
     height: 50px;
     border-radius: 5px;
     background-color: white;
     display: block;
-    width: 100%;
+    width: 400px;
     padding: 10px 20px;
     margin-bottom: 24px;
-    border: rgb(81, 74, 62);
+    border: 1px solid rgb(230, 211, 179);
 }
 
 .connect input[type=button] {
@@ -321,6 +324,8 @@ footer {
     align-items: center;
     background-color: #ffffff;
     padding: 5%;
+    /* border: 1px dashed wheat; */
+    box-shadow: 3px rgb(107, 100, 88);
 }
 
 .footer-title {
