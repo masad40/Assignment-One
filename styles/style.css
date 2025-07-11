@@ -236,6 +236,7 @@ main {
     display: flex;
     justify-content: space-around;
 }
+
 /* focus section */
 .focus {
     text-align: center;
@@ -248,18 +249,61 @@ main {
     width: 1100px;
     box-shadow: 5px 10px 10px 10px rgb(159, 149, 131);
 }
-.focus h1{
+
+.focus h1 {
     font-size: 50px;
     font-weight: bold;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 }
-.focus button{
+
+.focus button {
     margin-bottom: 20px;
     height: 48px;
     width: 200px;
 }
+
 .focus img {
     height: 365px;
     width: 840px;
     border-radius: 48px;
+}
+
+.connect {
+    /* text-align: center; */
+    height: 650px;
+    width: 1440;
+    border-radius: 8px;
+    padding: 70px 0px 0px 0px;
+    margin: 150px auto;
+    width: 1100px;
+    /* box-shadow: 5px 10px 10px 10px rgb(159, 149, 131); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+}
+.connect-title {
+    height: 235px;
+    width: 530px;
+    font-size: 50px;
+    font-weight: bold;
+    word-wrap: break-word;
+    
+}
+.connect input[type=text], input[type=email], input[type=textarea ] {
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: rgb(81, 74, 62);
+}
+.connect input[type=button] {
+    height: 50px;
+    width: 100%;
+}
+.connect input[type=button]:hover{
+    background-color: blue;
 }
